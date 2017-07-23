@@ -22,6 +22,10 @@ h1,h2,h3,h3,h4 {
 	font-family: 'Oswald', sans-serif;
 }
 
+p {
+	margin-bottom: 10px;
+}
+
 main h2 {
 	border-bottom: 2px solid #ddd;
 	padding-bottom: 10px;
@@ -87,7 +91,12 @@ main h2 {
 
 #mugshot {
 	float: left;
-	padding-right: 10px;
+	border: 1px solid #ddd;
+	padding: 5px;
+	border-radius: 2px;
+	margin-right: 10px;
+	box-shadow: 2px 2px 2px #888888;
+
 }
 
 #main-container {
