@@ -26,6 +26,10 @@ p {
 	margin-bottom: 10px;
 }
 
+a {
+	cursor: crosshair;
+}
+
 main h2 {
 	border-bottom: 2px solid #ddd;
 	padding-bottom: 10px;
