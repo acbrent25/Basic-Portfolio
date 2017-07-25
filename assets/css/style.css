@@ -1,3 +1,7 @@
+/****************************
+		GLOBAL STYLES
+****************************/
+
 * {
 	box-sizing: border-box;
 	padding: 0;
@@ -16,19 +20,22 @@ body {
 	padding: 0;
 }
 
+.container  {
+	width: 960px;
+	margin: auto;
+}
+
 
 
 h1,h2,h3,h3,h4 {
 	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
 }
 
 p {
 	margin-bottom: 10px;
 }
 
-a {
-	cursor: crosshair;
-}
 
 main h2 {
 	border-bottom: 2px solid #ddd;
@@ -36,74 +43,9 @@ main h2 {
 	margin-bottom: 20px;
 }
 
-#portfolio-content h2 {
-	border-bottom: none;
-}
 
 
-
-/* MAIN HEADER */
-
-#main-header {
-	background: #fff;
-	height: 64px;
-	border-bottom: 1px solid #ddd;
-}
-
-#main-header h1 {
-	margin-top: 0;
-	background-color: #dd3333;
-	color: #fff;
-	display: inline;
-	float: left;
-	padding: 10px;
-	text-transform: uppercase;
-
-}
-
-#main-header ul {
-	list-style-type: none;
-	margin: 0;
-    padding: 0;
-	float: right;
-
-}
-
-#main-header li {
-	display: inline;
-	vertical-align: middle;
-    line-height: 64px;
-    margin-right: 10px;  
-
-}
-
-#main-header li a {
-	text-decoration: none;
-	color: #333;
-}
-
-#main-header li a:hover {
-	color: #dd3333;
-}
-
-/* MAIN CONTENT */
-
-.main-content {
-	width: 960px;
-	margin: auto;
-}
-
-#mugshot {
-	float: left;
-	border: 1px solid #ddd;
-	padding: 5px;
-	border-radius: 2px;
-	margin-right: 10px;
-	box-shadow: 2px 2px 2px #888888;
-
-}
-
-#main-container {
+section {
 	margin: 50px 0;
 	overflow: hidden;
 }
@@ -117,7 +59,87 @@ main {
 
 }
 
-/* SIDEBAR */
+
+
+
+/****************************
+		MAIN HEADER
+****************************/
+
+#site-header {
+	background: #fff;
+	height: 64px;
+	border-bottom: 1px solid #ddd;
+}
+
+#site-header h1 {
+	margin-top: 0;
+	background-color: #dd3333;
+	color: #fff;
+	display: inline;
+	float: left;
+	padding: 10px;
+	text-transform: uppercase;
+
+}
+
+#logo a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/****************************
+		NAVIGATION
+****************************/
+
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+    padding: 0;
+	float: right;
+
+}
+
+nav li {
+	display: inline;
+	vertical-align: middle;
+    line-height: 64px;
+    margin-right: 10px;  
+
+}
+
+nav li a {
+	text-decoration: none;
+	color: #333;
+}
+
+nav li a:hover {
+	color: #dd3333;
+}
+
+
+
+
+/****************************
+		ABOUT PAGE
+****************************/
+
+#mugshot {
+	float: left;
+	border: 1px solid #ddd;
+	padding: 5px;
+	border-radius: 2px;
+	margin-right: 10px;
+	box-shadow: 2px 2px 2px #888888;
+
+}
+
+
+
+/****************************
+		SIDEBAR PAGE 
+****************************/
 
 aside {
 	width: 270px;
@@ -163,7 +185,14 @@ footer {
 }
 
 
-/* PORTFOLIO PAGE */
+/****************************
+		PORTFOLIO PAGE 
+****************************/
+
+#portfolio-content h2 {
+	border-bottom: none;
+}
+
 
 #portfolio-content {
 	margin-top: 20px;
@@ -199,7 +228,11 @@ footer {
     margin-top: -50px;
 }
 
-/* CONTACT PAGE */
+
+
+/****************************
+		CONTACT PAGE 
+****************************/
 
 #contact-form {
     margin-top: 20px;
@@ -212,7 +245,7 @@ input, textarea {
     border-radius: 2px;
     margin-bottom: 15px;
     width: 100%;
-    color: #ddd;
+    color: #aaa;
 }
 
 textarea {
@@ -226,6 +259,7 @@ input[type="submit"] {
     text-transform: uppercase;
     font-weight: bold;
     border-radius: 2px;
+    color: #fff;
 }
 
 input[type="submit"]:hover {
